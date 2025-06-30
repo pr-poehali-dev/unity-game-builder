@@ -143,9 +143,12 @@ export default function EditorFeatures() {
               size="lg"
               variant="outline"
               className="transition-all duration-200 hover:scale-105"
+              asChild
             >
-              <Icon name="FileText" size={18} className="mr-2" />
-              Документация
+              <a href="/editor">
+                <Icon name="Wrench" size={18} className="mr-2" />
+                Открыть редактор
+              </a>
             </Button>
           </div>
         </div>

@@ -42,9 +42,12 @@ export default function GameBuilderHero() {
             <Button
               size="lg"
               className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-4 text-lg font-medium transition-all duration-200 hover:scale-105"
+              asChild
             >
-              <Icon name="Play" size={20} className="mr-2" />
-              Начать создавать
+              <a href="/editor">
+                <Icon name="Play" size={20} className="mr-2" />
+                Начать создавать
+              </a>
             </Button>
             <Button
               variant="outline"
